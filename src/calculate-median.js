@@ -15,10 +15,10 @@
 			}
 		}
 		if(j%2==0){
-			n=(b[b.length/2]+b[b.length/2+1])/2;
+		return	n=(b[b.length/2]+b[b.length/2+1])/2;
 		}
 		else{
-			n=b[b.length/2+1];
+		return	n=b[b.length/2+1];
 		}
 	}
 
